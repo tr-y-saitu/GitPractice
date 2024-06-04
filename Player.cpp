@@ -115,7 +115,7 @@ void Player::Update(Enemy& enemy)
 	//velocity = VAdd(velocity, fallVelocity);
 
 	auto cc = 222;
-
+	auto ddd = 000;
 
 	// 移動制限
 	//if (pos.y >= MOVE_LIMIT_Y)
