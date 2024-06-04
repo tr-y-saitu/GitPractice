@@ -121,6 +121,7 @@ void Player::Update(Enemy& enemy)
 
 	auto abc = 22;
 	auto ggg = 99;
+	auto a = 1;
 
 
 	// 移動制限
