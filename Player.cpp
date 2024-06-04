@@ -125,6 +125,9 @@ void Player::Update(Enemy& enemy)
 	auto b = 1;
 
 
+	auto aa = 11;
+
+
 	// 移動制限
 	//if (pos.y >= MOVE_LIMIT_Y)
 	//{
