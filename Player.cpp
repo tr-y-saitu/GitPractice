@@ -108,7 +108,7 @@ void Player::Update(Enemy& enemy)
 	}
 
 	// 重力判定
-	//fallSpeed += GRAVITY;
+	fallSpeed += GRAVITY;
 	
 	// 落下速度を移動量に加える
 	//auto fallVelocity = VGet(0, fallSpeed, 0);	// 落下をベクトルにする
