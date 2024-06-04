@@ -118,6 +118,8 @@ void Player::Update(Enemy& enemy)
 	auto ddddl = 0;
 
 	auto abc = 22;
+	auto ggg = 99;
+
 
 	// 移動制限
 	//if (pos.y >= MOVE_LIMIT_Y)
