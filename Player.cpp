@@ -114,8 +114,9 @@ void Player::Update(Enemy& enemy)
 	//auto fallVelocity = VGet(0, fallSpeed, 0);	// 落下をベクトルにする
 	//velocity = VAdd(velocity, fallVelocity);
 
-
-
+	auto b = 3484.0f;
+	//
+	auto a = 44;
 	// 移動制限
 	//if (pos.y >= MOVE_LIMIT_Y)
 	//{
