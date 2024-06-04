@@ -116,6 +116,8 @@ void Player::Update(Enemy& enemy)
 
 	auto dd = 9;
 	auto ddddl = 0;
+	auto test = 111;
+	auto gg = 99;
 
 	auto abc = 22;
 	auto ggg = 99;
