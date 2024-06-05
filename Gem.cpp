@@ -159,6 +159,8 @@ void Gem::Initialize(VECTOR initPos, GemManager gemManager)
 /// <param name="cal">計算クラス</param>
 void Gem::Update(Calculation& cal)
 {
+
+
 	// 少しずつ回転１フレームずつ1度回転する
 	if (rotateCount <= 360)
 	{
@@ -267,6 +269,8 @@ void Gem::Update(Calculation& cal)
 	
 	// 3Dモデルの座標設定
 	MV1SetPosition(modelHandle, pos);
+
+
 }
 
 /// <summary>

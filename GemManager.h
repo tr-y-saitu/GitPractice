@@ -18,6 +18,12 @@ public:
 		SAPPHIRE,	// サファイア
 		EMERALD		// エメラルド
 	};
+	struct EntryDataBase
+	{
+		VECTOR entryPos;
+		int		entryTime;
+	};
+
 
 	// メソッド
 	GemManager();
